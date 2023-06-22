@@ -3,7 +3,7 @@ WebApps Creator es una aplicación para Linux que te permite crear fácilmente a
 
 Advertencia: navegador firefox no disponible puesto que firefox no se integra bien con webapps y lo maximo posible que podria hacer es que abra la usl pero no se sentiria como una app indendiente, se sentiria es como un acceso directo a la url.
 
-![captura](https://github.com/krafairus/webapps-creator-ui/assets/64279814/d2f925ca-ab61-41e7-9038-279ea3634920)
+![captura](https://github.com/krafairus/webapps-creator-ui/assets/64279814/6b321cc0-5254-4d1f-a53b-7522f75cc366)
 
 Características destacadas:
 
