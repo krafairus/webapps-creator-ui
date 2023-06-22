@@ -1,7 +1,7 @@
 # Webapps Creator
 WebApps Creator es una aplicación para Linux que te permite crear fácilmente accesos directos .desktop para tus aplicaciones web. Con esta herramienta, puedes convertir tus sitios web favoritos en aplicaciones de escritorio con tan solo unos clics.
 
-Advertencia: navegador firefox no disponible puesto que firefox no se integra bien con webapps y lo maximo posible que podria hacer es que abra la usl pero no se sentiria como una app indendiente, se sentiria es como un acceso directo a la url.
+Advertencia: navegador firefox no disponible puesto que firefox no se integra bien con webapps y lo maximo posible que podria hacer es que abra la url pero no se sentiria como una app indendiente, se sentiria es como un acceso directo a la url.
 
 ![captura](https://github.com/krafairus/webapps-creator-ui/assets/64279814/6b321cc0-5254-4d1f-a53b-7522f75cc366)
 
