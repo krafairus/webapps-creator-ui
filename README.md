@@ -15,4 +15,4 @@ Características destacadas:
 
 3. Organización y accesibilidad mejoradas: Al crear accesos directos .desktop, puedes organizar tus aplicaciones web favoritas de manera más eficiente en tu escritorio o menú de aplicaciones. Esto facilita el acceso rápido a tus sitios web preferidos sin tener que abrir el navegador y buscarlos manualmente.
 
-4. Compatibilidad con diferentes entornos de escritorio: WebApps Creator es compatible con una amplia variedad de entornos de escritorio en Linux, incluyendo GNOME, KDE, XFCE y muchos más. Esto garantiza que puedas disfrutar de tus accesos directos de escritorio sin importar el entorno que prefieras.
+4. Compatibilidad con diferentes entornos de escritorio: WebApps Creator es compatible con una amplia variedad de entornos de escritorio en GNU/Linux, incluyendo GNOME, KDE, XFCE y muchos más. Esto garantiza que puedas disfrutar de tus accesos directos de escritorio sin importar el entorno que prefieras.
