@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Obtenemos el valor de la distribución con el comando lsb_release
+distribucion=$(lsb_release -s --d)
+
+echo "Verificando la versión del sistema..."
+
+if [[ "$distribucion" == "Deepin 23" ]]; then
+    echo "Asignando solución para deepin23"
+    sudo sed -i 's/config\.write(desktop_file)/config\.write(desktop_file, space_around_delimiters=False)/' /usr/bin/webapps-creator-ui/options/webapps-creator-ui.py
+else
+    python3 /usr/bin/webapps-creator-ui/webapps-creator-ui.py
+fi
