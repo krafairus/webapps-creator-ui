@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Creador de WebApps
-Comment=Crear WebApps de forma grafica y sencilla.
-Exec=webapps-creator
-Icon=/usr/share/icons/hicolor/scalable/apps/webapps-creator.svg
-StartupWMClass=webapp_creator
-Type=Application
-Categories=System;
