@@ -6,7 +6,7 @@ Nota: Ahora disponible para debian(basadas en debian), deepin, ubuntu (nota: se 
 WebApps Creator es una aplicación para GNU/Linux que te permite crear fácilmente accesos directos .desktop para tus aplicaciones web. Con esta herramienta, puedes convertir tus sitios web favoritos en aplicaciones de escritorio con tan solo unos clics.
 
 Próximamente:
-- Add Firefox Browser
+- Add Firefox Browser option.
 - Add Midori browser option.
 - Add Falkon browser option.
 - Add option to customize launch parameter   for other browser.
