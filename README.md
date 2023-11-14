@@ -1,5 +1,5 @@
 # WebApps Creator
-Nota: Ahora disponible para debian(basadas en debian), deepin, ubuntu.
+Nota: Ahora disponible para debian(basadas en debian), deepin, ubuntu (nota: se esta re empaquetando la nueva versión para debian, me he demorado por que he estado bastante ocupado)
 
 # SOPORTE MULTIIDIOMAS - INGLES - ESPAÑOL - PORTUGUES
 
