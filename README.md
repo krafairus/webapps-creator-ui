@@ -1,7 +1,8 @@
 # WebApps Creator
 WebApps Creator es una aplicación para GNU/Linux que te permite crear fácilmente accesos directos .desktop para tus aplicaciones web. Con esta herramienta, puedes convertir tus sitios web favoritos en aplicaciones de escritorio con tan solo unos clics.
 
-¿Por que no esta firefox, midori, falkon?, Por el simple motivo de que firefox y sus basados como midori y falkon no cuentan con una implementacion de web apps, osea que si se lanza firefox lo maximo posible es que abra la url en el navegador pero no de forma independiente en su propia ventana, hay otras herramientas de webapps que si lo hacen pero eso conlleva a que por cada webapp que crees usando firefox (midori o falkon) se genere una carpeta nueva con peso de 12mb, algo que yo veo inecesario, al final si usas 10 webapps tendrias un peso mucho mayor, es mejor usar google chrome o basados en chromium, o usar webapps browser.
+¿Por que no esta firefox, midori, falkon?, Lea esto: https://github.com/krafairus/webapps-creator-ui/issues/1
+## First heading <a href="#user-content-first-heading" id="first-heading">#</a>
 
 ![Screenshot_20230915_192220](https://github.com/krafairus/webapps-creator-ui/assets/64279814/1d164cc0-a4ad-42fe-91b2-ebf5403bb884)
 
