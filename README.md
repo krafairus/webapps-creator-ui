@@ -3,7 +3,7 @@ WebApps Creator es una aplicación para GNU/Linux que te permite crear fácilmen
 
 ¿Por que no esta firefox, midori, falkon?, Lea esto: <a href="#user-content-first-heading" id="first-heading">https://github.com/krafairus/webapps-creator-ui/issues/1</a>
 
-![Screenshot_20230915_192220](https://github.com/krafairus/webapps-creator-ui/assets/64279814/1d164cc0-a4ad-42fe-91b2-ebf5403bb884)
+![Captura de pantalla_área-de-selección_20240531141522](https://github.com/krafairus/webapps-creator-ui/assets/64279814/555f33f5-eb00-452d-b20a-e8e6b93bdf89)
 
 Características destacadas:
 
