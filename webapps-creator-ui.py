@@ -67,7 +67,7 @@ class WebAppCreator(QMainWindow):
         dialog.setFixedSize(300, 120)
 
         layout = QVBoxLayout(dialog)
-        dialog.setWindowTitle(self.tr("Bienvenido a WebApps Creator!"))
+        dialog.setWindowTitle(self.tr("¡Bienvenido a WebApps Creator!"))
 
         label = QLabel(self.tr("Selecciona tu idioma:"))
         layout.addWidget(label)
@@ -222,7 +222,7 @@ class WebAppCreator(QMainWindow):
             self.app_icon_input.setText(file_name)
 
     def load_webapps_from_log(self):
-        # Cargar las WebApps desde el archivo de registro y llenar el QListWidget
+        # Cargar las WebApps desde la lista
         if os.path.exists(LOG_FILE):
             with open(LOG_FILE, "r") as log_file:
                 desktop_files = log_file.readlines()
@@ -230,20 +230,15 @@ class WebAppCreator(QMainWindow):
             for desktop_file in desktop_files:
                 desktop_file = desktop_file.strip()
 
-                # Leer el contenido del archivo desktop
                 config = configparser.ConfigParser()
                 config.read(desktop_file)
 
-                # Extraer el nombre y la ruta del ícono
                 app_name = config.get("Desktop Entry", "Name", fallback="Unknown")
                 icon_path = config.get("Desktop Entry", "Icon", fallback=None)
 
-                # Añadir al QListWidget con solo el nombre como texto visible
                 item = QListWidgetItem(app_name)
-                # Pero almacenar la ruta completa del archivo .desktop en el ítem
                 item.setData(Qt.UserRole, desktop_file)
 
-                # Configurar el ícono si la ruta del ícono es válida
                 if icon_path and os.path.exists(icon_path):
                     item.setIcon(QIcon(icon_path))
 
@@ -281,7 +276,7 @@ class WebAppCreator(QMainWindow):
 
         os.chmod(desktop_file_path, 0o755)
 
-        QMessageBox.information(self, self.tr("WebApp creada"), self.tr("WebApp creada y guardada en {0}").format(desktop_file_path))
+        QMessageBox.information(self, self.tr("WebApp creada con exito"), self.tr("WebApp creada y guardada en {0}").format(desktop_file_path))
 
         # Despues de guardar el archivo desktop
         with open(LOG_FILE, "a") as log_file:
@@ -310,7 +305,7 @@ class WebAppCreator(QMainWindow):
             if os.path.exists(desktop_file_path):
                 os.remove(desktop_file_path)
 
-                # Actualizar el archivo de registro
+                # Actualizar el registro de las webapps
                 with open(LOG_FILE, "r") as log_file:
                     lines = log_file.readlines()
                 with open(LOG_FILE, "w") as log_file:
@@ -373,10 +368,10 @@ class WebAppCreator(QMainWindow):
 
     def show_about(self):
         about_text = self.tr(
-            "Webapps Creator UI v1.3.1\n"
-            "Desarrollado por krafairus\n"
+            "Webapps Creator UI v1.4.0\n"
+            "Desarrollado por krafairus - Equipo Deepines\n"
             "Más información en:\n"
-            "https://github.com/krafairus/webapps-creator-ui"
+            "https://github.com/deepin-espanol/webapps-creator-ui"
         )
         QMessageBox.information(self, self.tr("Acerca de Webapps Creator UI"), about_text)
 
