@@ -175,6 +175,7 @@ class WebAppCreator(QMainWindow):
         self.browser_combo_box.addItem("Microsoft Edge", "/usr/bin/microsoft-edge-stable --app=")
         self.browser_combo_box.addItem("Brave Browser", "/usr/bin/brave-browser-stable --app=")
         self.browser_combo_box.addItem("Deepin Browser", "/usr/bin/browser --no-fuser --app=")
+        self.browser_combo_box.addItem("Deepin Browser - LingLong App", "/usr/bin/ll-cli run org.deepin.browser -- browser --app=")
         self.browser_combo_box.addItem("Opera Web Browser", "/usr/bin/opera --app=")
         self.browser_combo_box.addItem("Vivaldi", "/usr/bin/vivaldi-stable --app=")
         create_layout.addWidget(self.browser_combo_box)
