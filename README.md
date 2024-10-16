@@ -16,4 +16,4 @@ Características destacadas:
 4. Compatibilidad con diferentes entornos de escritorio: WebApps Creator es compatible con una amplia variedad de entornos de escritorio en GNU/Linux, incluyendo GNOME, KDE, XFCE y muchos más. Esto garantiza que puedas disfrutar de tus accesos directos de escritorio sin importar el entorno que prefieras.
 
 
-Creado por krafairus. Bajo la licencia MIT.
+Creado por krafairus - Equipo deepines. Bajo la licencia MIT.
